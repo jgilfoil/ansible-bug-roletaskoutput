@@ -1,0 +1,6 @@
+# Deploy and Configure gitlab.it.ucf.edu and it's supporting environments.
+
+- name: Test
+  hosts: localhost
+  roles:
+  - test_role

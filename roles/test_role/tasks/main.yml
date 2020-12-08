@@ -1,0 +1,7 @@
+- name: task without rolename
+  debug:
+    msg: "this task gets the role name in the output"
+
+- name: task with rolename test_role
+  debug:
+    msg: "this task does not get the role name in the output"
